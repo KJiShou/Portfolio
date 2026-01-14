@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import { FaLinkedin, FaGithub, FaTwitter } from "react-icons/fa";
+import { FaLinkedin, FaGithub } from "react-icons/fa";
 import { motion } from "framer-motion";
 import { CgMail } from "react-icons/cg";
 import { useEffect, useRef } from "react";
