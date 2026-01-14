@@ -121,7 +121,7 @@ export const projects: project[] = [
   {
     id: "desmos-lifeline",
     title: "Desmos Lifeline",
-    cover: "/assets/projects/2D-game.png",
+    cover: `${import.meta.env.BASE_URL}assets/projects/2D-game.png`,
     tags: ["unity", "c#", "2d", "equations", "linerenderer"],
     code_links: [
       { label: "GitHub", url: "https://github.com/KJiShou/Desmos-Lifeline", icon: CodeLinkIcon.TOOLS }
