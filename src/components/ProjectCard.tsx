@@ -21,7 +21,7 @@ export default function ProjectCard({ project }: { project: ProjectType }) {
 
       <div className="relative overflow-hidden flex-shrink-0 h-52 w-full">
         <motion.img
-          src={project.cover || "/assets/projects/placeholder.png"}
+          src={project.cover || `${import.meta.env.BASE_URL}assets/projects/placeholder.png`}
           alt={project.title}
           className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700"
           whileHover={{ scale: 1.1 }}

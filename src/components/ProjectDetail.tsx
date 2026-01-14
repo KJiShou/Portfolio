@@ -62,7 +62,7 @@ const ProjectDetail = () => {
           >
             <div className="glass-strong rounded-xl overflow-hidden border border-neon-blue/20">
               <img 
-                src={project.cover || "/assets/projects/placeholder.png"} 
+                src={project.cover || `${import.meta.env.BASE_URL}assets/projects/placeholder.png`} 
                 alt={project.title}
                 className="w-full h-full object-cover"
               />

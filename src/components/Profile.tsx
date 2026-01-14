@@ -6,6 +6,7 @@ import { useEffect, useRef } from "react";
 import Typed from "typed.js";
 
 const Profile = () => {
+  const assetBase = import.meta.env.BASE_URL;
   const typedRef = useRef<HTMLSpanElement>(null);
 
   useEffect(() => {
@@ -48,7 +49,7 @@ const Profile = () => {
         >
           <div className="w-40 h-40 md:w-44 md:h-44 rounded-full overflow-hidden border-2 border-neon-blue/40 shadow-[0_0_30px_rgba(0,212,255,0.4)]">
             <img
-              src="/assets/profile/personal_image.jpeg"
+              src={`${assetBase}assets/profile/personal_image.jpeg`}
               alt="Portrait of Kong Ji Shou"
               className="w-full h-full object-cover"
             />

@@ -36,7 +36,7 @@ export const projects: project[] = [
   {
     id: "graphic-programming-assignment",
     title: "Graphic Programming Assignment",
-    cover: "/assets/projects/graphic-programming.png",
+    cover: `${import.meta.env.BASE_URL}assets/projects/graphic-programming.png`,
     tags: ["c++", "opengl", "graphics", "3d", "directinput"],
     code_links: [
       { label: "GitHub", url: "https://github.com/KJiShou/GraphicProgrammingAssignment", icon: CodeLinkIcon.TOOLS }
@@ -64,7 +64,7 @@ export const projects: project[] = [
   {
     id: "sport-stacking-website",
     title: "Sport Stacking Website",
-    cover: "/assets/projects/sport-stacking.png",
+    cover: `${import.meta.env.BASE_URL}assets/projects/sport-stacking.png`,
     tags: ["react", "typescript", "firebase", "tailwindcss", "vite"],
     code_links: [
       { label: "GitHub", url: "https://github.com/KJiShou/Sport-Stacking-Website", icon: CodeLinkIcon.FULLSTACK }
@@ -93,7 +93,7 @@ export const projects: project[] = [
   {
     id: "chichis-bizarre-adventure",
     title: "Chichi's Bizarre Adventure",
-    cover: "/assets/projects/3D-Game.png",
+    cover: `${import.meta.env.BASE_URL}assets/projects/3D-Game.png`,
     tags: ["unity", "c#", "3d", "urp", "cinemachine"],
     code_links: [
       { label: "GitHub", url: "https://github.com/KJiShou/3D-Game-Development", icon: CodeLinkIcon.TOOLS }
