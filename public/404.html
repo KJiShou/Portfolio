@@ -1,0 +1,19 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Redirecting...</title>
+    <script>
+      (function () {
+        var l = window.location;
+        var base = "/Portfolio";
+        var path = l.pathname.replace(base, "");
+        var search = l.search.replace(/&/g, "~and~");
+        l.replace(l.protocol + "//" + l.host + base + "/?/" + path + search + l.hash);
+      })();
+    </script>
+  </head>
+  <body>
+    Redirecting...
+  </body>
+</html>
